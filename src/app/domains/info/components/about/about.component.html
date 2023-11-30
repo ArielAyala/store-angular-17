@@ -5,5 +5,5 @@
   <input type="text" [value]="message()" (change)="changeMessage($event)">
 </p>
 <p>
-  <app-counter [duration]="duraton()" [message]="message()" />
+  <app-counter [duration]="duraton()" [message]="message()" *ngIf="duraton() > 0" />
 </p>
