@@ -1,9 +1,19 @@
-<p>
-  <input type="number" [value]="duraton()" (change)="changeDuration($event)">
-</p>
-<p>
-  <input type="text" [value]="message()" (change)="changeMessage($event)">
-</p>
-<p>
-  <app-counter [duration]="duraton()" [message]="message()" *ngIf="duraton() > 0" />
-</p>
+<div class="px-10">
+  <h1 class="font-bold text-lg">About</h1>
+  <p class="text-sm">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda
+    blanditiis facere suscipit ratione velit, voluptates nisi ad ipsam minima id
+    nam molestiae repellat eius rerum quae, fugiat saepe. Laudantium, unde.
+  </p>
+  <p class="text-sm">
+    Number of clients
+    <app-counter
+      [duration]="duraton()"
+      [message]="message()"
+      *ngIf="duraton() > 0"
+    />
+  </p>
+  <div>
+    <app-wave-audio audioURL="assets/audio.mp3" />
+  </div>
+</div>
