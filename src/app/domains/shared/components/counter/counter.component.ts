@@ -16,7 +16,7 @@ export class CounterComponent {
 
   constructor() {
     console.log('contructor');
-    console.log('-'.repeat(10));
+    //console.log('-'.repeat(10));
 
   }
 
@@ -25,16 +25,16 @@ export class CounterComponent {
     console.log('-'.repeat(10));
     console.log(changes);
 
-    this.intervalRef = window.setInterval(()=> {
-      console.log('run interval');
+    // this.intervalRef = window.setInterval(()=> {
+    //   console.log('run interval');
 
-      this.counter.update(previousState => previousState + 1);
-    }, 1000);
+    //   this.counter.update(previousState => previousState + 1);
+    // }, 1000);
   }
 
   ngOnInit() {
     console.log('ngOnInit');
-    console.log('-'.repeat(10));
+    //console.log('-'.repeat(10));
     console.log('duration => ', this.duration);
     console.log('message => ', this.message);
   }
