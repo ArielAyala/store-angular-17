@@ -1,0 +1,1 @@
+import{L as o,ua as e,va as i}from"./chunk-7LMTLDZJ.js";var u=(()=>{let t=class t{constructor(){this.cart=i([]),this.total=e(()=>this.cart().reduce((r,n)=>r+n.price,0))}addToCart(a){this.cart.update(r=>[...r,a])}};t.\u0275fac=function(r){return new(r||t)},t.\u0275prov=o({token:t,factory:t.\u0275fac,providedIn:"root"});let c=t;return c})();export{u as a};
