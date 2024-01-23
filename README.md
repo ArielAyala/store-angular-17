@@ -1,27 +1,35 @@
-# StoreAngular17
+# Store Angular 17
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.1.
+[![Angular](https://img.shields.io/badge/Angular-v17-red)](https://github.com/angular/angular)
+[![License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
 
-## Development server
+This repository contains a web store application built using Angular 17.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Getting Started
 
-## Code scaffolding
+To run the application locally, follow these steps:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Install the necessary dependencies using `npm install`.
+4. Start the development server with `ng serve`.
+5. Open your web browser and go to `http://localhost:4200/` to view the application.
 
-## Build
+## Project Structure
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+The project structure includes the following key directories and files:
 
-## Running unit tests
+- `src/`: Contains the source code for the Angular application.
+- `package.json`: Lists the project's dependencies and their versions.
+- `angular.json`: Configures the Angular project and build options.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Dependencies
+For a full list of dependencies, please refer to the `package.json` file.
 
-## Running end-to-end tests
+## Contributing
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+If you would like to contribute to this project, please fork the repository and submit a pull request with your proposed changes.
 
-## Further help
+## License
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This project is licensed under the terms of the [MIT license](https://opensource.org/licenses/MIT).
