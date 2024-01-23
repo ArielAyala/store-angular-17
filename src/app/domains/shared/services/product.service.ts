@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable, inject } from '@angular/core';
 import { Product } from '@shared/models/product.model';
+import { environment } from '../../../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -8,11 +9,12 @@ import { Product } from '@shared/models/product.model';
 export class ProductService {
 
   private http = inject(HttpClient);
+  private apiUrl = environment.apiUrl;
 
   constructor() { }
 
   getProducts(category_id?: string) {
-    const url = new URL('https://api.escuelajs.co/api/v1/products');
+    const url = new URL(this.apiUrl + 'products');
     if (category_id) {
       url.searchParams.set('categoryId', category_id);
     }
@@ -20,6 +22,6 @@ export class ProductService {
   }
 
   getProduct(id: string) {
-    return this.http.get<Product>(`https://api.escuelajs.co/api/v1/products/${id}`);
+    return this.http.get<Product>(this.apiUrl + `products/${id}`);
   }
 }
