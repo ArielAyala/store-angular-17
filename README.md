@@ -15,6 +15,10 @@ To run the application locally, follow these steps:
 4. Start the development server with `ng serve`.
 5. Open your web browser and go to `http://localhost:4200/` to view the application.
 
+## Deployed Application
+
+The deployed application can be accessed at the following link: https://arielayala.github.io/store-angular-17/
+
 ## Project Structure
 
 The project structure includes the following key directories and files:
