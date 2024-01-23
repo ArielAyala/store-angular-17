@@ -13,7 +13,7 @@ import { HighlightDirective } from '@shared/directives/highlight.directive';
 })
 export class AboutComponent {
 
-  duraton = signal(1000);
+/*   duraton = signal(1000);
   message = signal('Hello');
 
   changeDuration(event: Event) {
@@ -24,5 +24,5 @@ export class AboutComponent {
   changeMessage(event: Event) {
     const input = event.target as HTMLInputElement;
     this.message.set(input.value);
-  }
+  } */
 }
